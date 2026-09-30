@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Local SQLite databases generated at runtime
+*.db
+*.sqlite
+*.sqlite3
+
+# Streamlit local runtime state & credentials
+.streamlit/
+.streamlit/secrets.toml
+
+# Environment variables & local secrets
+.env
+.env.local
+*.env
+
+# IDE / Code editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System temporary files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Build / Distribution artifacts
+build/
+dist/
+*.egg-info/
